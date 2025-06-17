@@ -1,4 +1,4 @@
-package org.automationTesting;
+package org.automation.dataDriven;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -24,7 +24,7 @@ Cell------------->: XSSFCell
 
 */
 
-public class DataDrivenExcel  {
+public class ReadingFileFromExcel  {
     public static void main( String[] args ) throws InterruptedException, IOException {
 
         //open file

@@ -1,4 +1,4 @@
-package org.automationTesting;
+package org.automation.dataDriven;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
