@@ -7,6 +7,23 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+/*
+
+Data Driven Testing
+-------------------
+
+To read data from Excel file :-   Excel  file --> Workbook --> Sheets --> Rows --> Cells
+
+Classes needed :-
+To Read in Excel  : FileInputStream
+To Write in Excel : FileOutputStream
+WorkBook--------->: XSSFWorkbook
+Sheet------------>: XSSFSheet
+Row ------------->: XSSFRow
+Cell------------->: XSSFCell
+
+*/
+
 public class DataDrivenExcel  {
     public static void main( String[] args ) throws InterruptedException, IOException {
 
