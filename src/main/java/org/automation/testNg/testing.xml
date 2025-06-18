@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation Test Suite">
+    <test name="Basic TestNG Example">
+        <classes>
+            <class name="org.automation.testNg.FirstTestCase"/>
+        </classes>
+    </test>
+    <test name="Before Method TestNG Example">
+        <classes>
+            <class name="org.automation.testNg.SecondTestCase_On_BeforeMethod"/>
+        </classes>
+    </test>
+    <test name="Before Class TestNG Example">
+        <classes>
+            <class name="org.automation.testNg.ThirdEcomBeforeClassTestCase"/>
+        </classes>
+    </test>
+</suite>
